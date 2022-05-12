@@ -1,0 +1,54 @@
+header{
+    #nav-item1, #nav-item2{
+        color: #fff;
+        &:hover{
+            color: $link-hover;
+        }
+    }
+
+    .logoPc{
+        width: 40vw;
+        min-width: 160px;
+        max-width: 250px;
+        margin-left:-12px;
+        margin-right: 20px;
+    }
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: rgb(51, 51, 51);
+    height: 80px;
+    font-size: 15px;
+
+    .f-link{
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+            color: $link-hover;
+        }
+    }
+}
+#button{
+    padding: $padding-button;
+}
+
+@media (max-width: 470px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding-bottom: 40px;
+
+        span{
+            margin-top:40px ;
+        }
+        a{
+            margin-top: 20px;
+        }
+    }
+}

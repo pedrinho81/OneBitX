@@ -1,0 +1,50 @@
+@import "./variables.scss";
+@import "./common.scss";
+@import "./falcon9.scss";
+@import "./human-space-flight.scss";
+
+.container00{
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    .h5{
+        text-transform: uppercase;
+    }
+
+    &.container01{
+        background-image: url(../assets/home/01.jpg);    
+        .nav-link{
+            font-size: 12px;
+            color: #fff;
+            &:hover{
+                color: $link-hover;
+            }
+        }
+    }
+    &.container02{
+        background-image: url(../assets/home/02.gif);
+        
+    }
+    &.container03{
+        background-image: url(../assets/home/03.jpg);
+        
+    }
+    &.container04{
+        background-image: url(../assets/home/04.jpg);
+        
+    }
+
+}
+
+.arrow{
+    display: inline-block;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.titlePadding{
+    padding-top: 200px;
+}
